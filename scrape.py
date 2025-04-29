@@ -3,7 +3,7 @@ import os
 import csv
 from datetime import datetime
 
-bearer_token = 'REMOVED_SECRET'
+bearer_token = 'INSERT_TOKEN HERE'
 
 client = tweepy.Client(bearer_token=bearer_token, wait_on_rate_limit=True)
 
